@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T11:51:50 IST" name="Default suite" finished-at="2024-03-02T11:52:08 IST" duration-ms="18381">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@32ee6fee]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-02T11:51:50 IST" name="Default test" finished-at="2024-03-02T11:52:08 IST" duration-ms="18381">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Runner@32ee6fee]" started-at="2024-03-02T11:51:50 IST" name="setUpClass" finished-at="2024-03-02T11:51:51 IST" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28b8f98a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@32ee6fee]" started-at="2024-03-02T11:51:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T11:52:00 IST" duration-ms="8570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get All Incidents"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Incident Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@32ee6fee]" started-at="2024-03-02T11:52:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T11:52:02 IST" duration-ms="2444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Incident"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Incident Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@32ee6fee]" started-at="2024-03-02T11:52:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T11:52:05 IST" duration-ms="2346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Incident with file body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Incident Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@32ee6fee]" started-at="2024-03-02T11:52:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T11:52:07 IST" duration-ms="2269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Incident with file body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Incident Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runner@32ee6fee]" started-at="2024-03-02T11:52:07 IST" name="tearDownClass" finished-at="2024-03-02T11:52:08 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
